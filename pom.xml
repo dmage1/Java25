@@ -38,16 +38,27 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
+		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api
+		API for Apache Log4J, a highly configurable logging tool that focuses on performance and low garbage generation.
+		It has a plugin architecture that makes it extensible and supports asynchronous logging based on LMAX Disruptor.
+		-->
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-api</artifactId>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core
+		Implementation for Apache Log4J, a highly configurable logging tool that focuses on performance and low garbage
+		generation. It has a plugin architecture that makes it extensible and supports asynchronous logging based on
+		LMAX Disruptor.
+		-->
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-core</artifactId>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api
+		JUnit Jupiter is the API for writing tests using JUnit 5.
+		-->
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-api</artifactId>
