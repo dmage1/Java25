@@ -16,7 +16,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class JUnit5AssertionsTest {
 
-    private static Logger logger = LogManager.getLogger(JUnit5AssertionsTest.class);
+    private static final Logger logger = LogManager.getLogger(JUnit5AssertionsTest.class);
 
     @Test
     // assertArrayEquals

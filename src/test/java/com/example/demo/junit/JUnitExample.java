@@ -8,7 +8,7 @@ public class JUnitExample {
 
     // https://www.baeldung.com/junit-5
 
-    private static Logger logger = LogManager.getLogger(JUnitExample.class);
+    private static final Logger logger = LogManager.getLogger(JUnitExample.class);
 
     @BeforeAll
     static void setup() {

@@ -7,7 +7,7 @@ class Log4jExample  {
 
     // https://www.baeldung.com/java-logging-intro
 
-    private static Logger logger = LogManager.getLogger(Log4jExample.class);
+    private static final Logger logger = LogManager.getLogger(Log4jExample.class);
 
     public static void main(String[] args) {
         logger.debug("Debug log message");

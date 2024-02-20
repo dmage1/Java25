@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class JUnitGroupAssertionsTest {
 
     @Test
-        // use group assertions with assertAll(), which will report any failed assertions
+    // use group assertions with assertAll(), which will report any failed assertions
     void groupAssertions() {
         int[] numbers = {0, 1, 2, 3, 4};
         assertAll("numbers",
