@@ -127,8 +127,6 @@ public class JUnit5AssertionsTest {
         );
     }
 
-
-
     @Test
     // assertIterableEquals
     void givenTwoLists_whenAssertingIterables_thenEquals() {
