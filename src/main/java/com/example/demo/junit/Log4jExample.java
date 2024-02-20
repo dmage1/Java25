@@ -12,6 +12,7 @@ class Log4jExample  {
     public static void main(String[] args) {
         logger.debug("Debug log message");
         logger.info("Info log message");
+        logger.warn("Warn log message");
         logger.error("Error log message");
     }
 }
