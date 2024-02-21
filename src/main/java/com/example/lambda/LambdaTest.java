@@ -1,4 +1,4 @@
-package com.example.lambdas;
+package com.example.lambda;
 
 import com.example.model.Product;
 import org.junit.jupiter.api.Test;
