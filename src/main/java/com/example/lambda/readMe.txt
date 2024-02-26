@@ -17,7 +17,7 @@ It saves a lot of code. In case of lambda expression, we don't need to define th
 
 Here, we just write the implementation code.
 
-Java lambda expression is treated as a function, so compiler does not create .class file.
+* Java lambda expression is treated as a function, so compiler does not create .class file.
 
 Functional Interface
 --------------------

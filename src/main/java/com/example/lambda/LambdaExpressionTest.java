@@ -12,7 +12,7 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class LambdaTest {
+public class LambdaExpressionTest {
 
     @FunctionalInterface  //It is optional
     interface Drawable {

@@ -4,7 +4,7 @@ public class Product {
 
     private int id;
     private String name;
-    private float price;
+    private double price;
     public Product(int id, String name, float price) {
         super();
         this.id = id;
@@ -28,11 +28,11 @@ public class Product {
         this.name = name;
     }
 
-    public float getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(float price) {
+    public void setPrice(double price) {
         this.price = price;
     }
 }
