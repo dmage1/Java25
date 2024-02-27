@@ -189,10 +189,6 @@ public class StreamTest {
         counter++;
     }
 
-    // *** Here ***
-    // https://www.baeldung.com/java-8-streams
-    // checkout  Lazy Invocation
-
     @Test
     void streamLazyInvocation_test() {
         // Intermediate operations are lazy. This means that they will be invoked only if it is necessary for the
