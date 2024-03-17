@@ -1,7 +1,11 @@
 package com.example.model;
 
-import java.util.Optional;
+import com.example.model.comparator.PersonAgeComparator;
+import lombok.ToString;
 
+import java.util.*;
+
+@ToString
 public class Person {
 
     private String name;
@@ -31,4 +35,19 @@ public class Person {
     }
 
     // normal constructors and setters
+
+    public static List<Person> getPersonList() {
+        return Arrays.asList(
+                new Person("John", 22, "pass"),
+                new Person("Roger", 20, "pass"),
+                new Person("Steven", 24, "pass"));
+    }
+
+    public static void main(String[] args) {
+        List<Person> people = Person.getPersonList();
+
+        System.out.println("Before Sorting : " + people);
+        Collections.sort(people, new PersonAgeComparator());
+        System.out.println("After Sorting : " + people);
+    }
 }

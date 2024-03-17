@@ -1,8 +1,10 @@
-package com.example.model;
+package com.example.model.comparator;
+
+import com.example.model.Bicycle;
 
 import java.util.Comparator;
 
-public class BicycleComparator implements Comparator<Bicycle> {
+public class BicycleFrameSizeComparator implements Comparator<Bicycle> {
 
     @Override
     public int compare(Bicycle a, Bicycle b) {

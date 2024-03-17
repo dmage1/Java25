@@ -5,7 +5,7 @@ package com.example.methodref;
 // https://www.baeldung.com/java-method-references
 
 import com.example.model.Bicycle;
-import com.example.model.BicycleComparator;
+import com.example.model.comparator.BicycleFrameSizeComparator;
 import org.junit.jupiter.api.Test;
 import org.springframework.util.StringUtils;
 
@@ -41,7 +41,7 @@ public class methodRefTest {
                 new Bicycle("Medium Bike", 75),
                 new Bicycle("Tiny Bike", 10)
         );
-        BicycleComparator bikeFrameSizeComparator = new BicycleComparator();
+        BicycleFrameSizeComparator bikeFrameSizeComparator = new BicycleFrameSizeComparator();
 
         // We could use a lambda expression to sort bicycles by frame size, but we’d need to specify two bikes for comparison:
         createBicyclesList.stream().sorted((a, b) -> bikeFrameSizeComparator.compare(a, b)).forEach(System.out::println);
